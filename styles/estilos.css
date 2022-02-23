@@ -1,0 +1,78 @@
+/* Selectores*/
+
+body{
+    background-image: url("../Recursos/fondo.jpg"); /*Imágenes de fondo en css; */
+}
+
+/*Selector universal*/
+*{
+    /*font family es el tipo de la letra*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Selector de etiquetas*/
+h1{
+    background: transparent;
+    color: #464646;
+    padding: 10px;
+    border: solid transparent;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#descripcion{
+    padding: 15px;
+    background: transparent;
+    margin: 0px; /*Distancia de los bordes con el límite de la pantalla*/ 
+    border: solid  transparent;
+    border-radius: 10px; /*Radio de las puntas del cuadro;*/
+    color: #0A0A0A;
+    
+}
+
+.parrafoUno{
+    font-style: italic;
+}
+
+section h2{
+    text-align: center;
+    color: #464646;
+}
+
+/*Sección que contiene el formulario para el usuario*/
+section{
+    margin: 20px;
+}
+
+section label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0A0A0A;
+}
+
+section #boton{
+    background: #01DEAF;
+    border: #01DEAF;
+    font-weight: 600;
+    color: black;
+}
+
+section #boton:hover{
+    background: white;
+    border: #00AD88;
+}
+
+footer{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #464646;
+}
+
+/*Vaya al footer y cambie la etiqueta ...*/
+footer a{
+    color: #26386B; 
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+
